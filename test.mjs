@@ -14,3 +14,6 @@ console.log(results);
 
 const whichresults = await exec('which aliyun');
 console.log(whichresults);
+
+const aliyun = await exec('aliyun version');
+console.log(aliyun);
