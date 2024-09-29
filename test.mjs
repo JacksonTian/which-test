@@ -1,4 +1,3 @@
-import os from "os";
 import cp from "child_process";
 
 function exec(command) {
@@ -17,3 +16,9 @@ console.log(whichresults);
 
 const aliyun = await exec('aliyun version');
 console.log(aliyun);
+
+const inexist = await exec('where aliyunxx');
+console.log(inexist);
+
+const aliyunxxwhich = await exec('which aliyunxx');
+console.log(aliyunxxwhich);
